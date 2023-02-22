@@ -1,0 +1,21 @@
+.button {
+  width: 3rem;
+  height: 3rem;
+  background-color: #440707;
+  border: 3px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  margin: 0 1px;
+}
+
+.buttonImg {
+  width: 30px;
+  height: auto;
+  margin-left: 1px;
+  margin-top: 1px;
+}
+
+.button:hover {
+  background-color:rgb(106, 54, 54);
+}

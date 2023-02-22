@@ -1,0 +1,44 @@
+.decorationOff {
+  text-decoration: none;
+  color: white;
+}
+
+.basicButton {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  margin: 20px 3px 3px 3px;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 3%;
+  cursor: pointer;
+  transition: background-color 0.5s ease-out;
+  transition: font-size 0.5s;
+}
+
+.basicButton:hover {
+  background-color: rgb(40, 40, 40);
+  font-size: large;
+}
+
+label {
+  color: rgb(180, 180, 180);
+  font-style: italic;
+}
+
+input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgb(63, 63, 63);
+  padding: 5px;
+  transition: background-color 0.3s;
+  color: rgb(180, 180, 180);
+}
+
+input:hover, input:focus {
+  outline: 1px solid white;
+  border: none;
+  background-color: #120000;
+}
+

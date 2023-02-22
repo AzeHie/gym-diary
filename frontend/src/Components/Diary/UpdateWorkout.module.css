@@ -1,0 +1,157 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.workoutContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.workoutName {
+  display: flex;
+  flex-direction: column;
+}
+
+.workoutName > h2 {
+  margin-bottom: 0px;
+}
+
+.exerciseContainer {
+  width: 100%;
+  border: 1px solid rgb(45, 45, 45);
+  background-color: black;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 5px 2px black;
+}
+
+.exerciseName {
+  font-size: 25px;
+}
+
+.setsReps {
+  font-size: 12px;
+  margin-top: -20px;
+}
+
+.suggestion {
+  font-size: 12px;
+  font-style: italic;
+}
+
+
+/* LOG  */
+
+.logContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.logTable {
+  width: 95%;
+  border: 1px solid rgb(116, 116, 116);
+}
+
+thead {
+  background-color: rgb(16, 16, 16);
+}
+
+thead > tr {
+  height: 5rem;
+}
+
+tr > th {
+  height: 2rem;
+  padding: 10px;
+  border: 1px solid rgb(116, 116, 116);
+  font-style: italic;
+}
+
+.lastTh {
+  display: flex;
+  height: 5rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.kg {
+  font-size: 13px;
+}
+
+.thSpacer {
+  width: 20%;
+}
+
+.repsTh {
+  width: 60%;
+}
+
+.addBtn {
+  width: 20%;
+  justify-self: flex-end;
+}
+
+.addBtn:hover >img {
+  width: 20px;
+  height: 20px;
+}
+
+tr > td {
+  padding: 10px;
+  border: 1px solid rgb(116, 116, 116);
+  font-style: italic;
+}
+
+.repsTd {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.repsSpa {
+  width: 100%;
+  max-width: 3rem;
+  position: relative;
+  align-self: center;
+  padding: 5px;
+  margin: 0 2px;
+  border: 1px solid rgb(58, 58, 58);
+  background-color: rgb(23, 23, 23);
+}
+
+.removeImg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  align-self: flex-end;
+  border: 1px solid rgb(58, 58, 58);
+  background-color:rgb(116, 116, 116);
+  cursor: pointer;
+}
+
+.addSetImg {
+  justify-self: flex-end;
+  width: 15px;
+  height: auto;
+  margin-left: auto;
+  padding: 5px;
+  border: 1px solid rgb(58, 58, 58);
+  background-color:rgb(65, 65, 65);
+  cursor: pointer;
+}
+
+
+

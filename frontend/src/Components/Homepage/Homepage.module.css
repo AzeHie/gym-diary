@@ -1,0 +1,11 @@
+h2, p {
+  font-style:italic;
+}
+
+p {
+  font-size: larger;
+}
+
+.signupLink {
+  color:rgb(188, 126, 246);
+}

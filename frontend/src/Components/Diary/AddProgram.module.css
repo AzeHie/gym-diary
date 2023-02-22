@@ -1,0 +1,253 @@
+label {
+  margin: 0;
+}
+
+.pageContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleDiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 40px;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.pageTitle {
+  display: block;
+  margin: 1rem 0;
+  text-align: end;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.programDetailsContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  background-color: black;
+  border: 1px solid white;
+  border-bottom: none;
+  margin-top: 2rem;
+}
+
+.programNameInput {
+  width: 30%;
+}
+
+.workoutsContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid white;
+  border-top: none;
+}
+
+.workoutNameContainer {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.workoutNameInput {
+  width: 30%;
+  margin-bottom: 1rem;
+}
+
+
+.workoutDetailTabPanel {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  margin-left: 5px;
+}
+
+.addedExercisesContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.addedExercise {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 61% 17% 17% 5%;
+  margin-bottom: 3px;
+  padding: 3px;
+  font-style: italic;
+  text-align: left;
+  border: 1px dotted rgb(35, 35, 35);
+  color: rgb(180, 180, 180);
+}
+
+
+.exercisesContainer {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-rows: 100%;
+  grid-template-columns: 60% 15% 15% 10%;
+} 
+
+.exercisesTitle {
+  margin-top: 5px;
+  font-weight: normal;
+  font-style: italic;
+  text-align: left;
+  color: rgb(180, 180, 180);
+}
+
+.exerciseInputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(32, 32, 32);
+  border-top: 1px solid rgb(32, 32, 32);
+}
+
+.exerciseInputs > label {
+  margin: 0;
+}
+
+.exerciseInputs > input {
+  width: 80%;
+}
+
+
+/* BUTTONS && IMAGES */
+
+.addExerciseBtn {
+  display: flex;
+  flex-direction:column;
+  align-content: center;
+  justify-content: center;
+  border-top: 1px solid rgb(32, 32, 32);
+  border-bottom: 1px solid rgb(32, 32, 32);
+}
+
+.addBtnImg {
+  justify-self: center;
+  align-self: center;
+  width: 15px;
+  height: auto;
+  margin-left: auto;
+  padding: 5px;
+  border: 1px solid rgb(58, 58, 58);
+  background-color:rgb(65, 65, 65);
+  cursor: pointer;
+}
+
+.removeImg {
+  width: 10px;
+  height: 10px;
+  padding: 1px;
+  margin-top: 5px;
+  border: 1px solid rgb(58, 58, 58);
+  background-color: rgb(180, 180, 180);
+}
+
+.submitButtonsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.submitButton {
+  width: 3rem;
+  height: 3rem;
+  background-color: #440707;
+  border: 3px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  margin: 0 1px;
+}
+
+.buttonImg {
+  width: 30px;
+  height: auto;
+  margin-left: 1px;
+  margin-top: 1px;
+}
+
+.submitButton:hover {
+  background-color:rgb(106, 54, 54);
+}
+
+
+/* TAB */
+
+.tabContainer :global .react-tabs {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.tabContainer :global .react-tabs__tab-list {
+  display: flex;
+  border-bottom: 1px solid #aaa;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.tabContainer :global .react-tabs__tab {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-style: italic;
+}
+
+.tabContainer :global .react-tabs__tab--selected {
+  background: black;
+  border-color: #aaa;
+  color: white;
+  border-radius: 5px 5px 0 0;
+  transition: background-color 0.3s;
+}
+
+.tabContainer :global .react-tabs__tab--disabled {
+  color: GrayText;
+  cursor: default;
+}
+
+.tabContainer :global .react-tabs__tab:focus {
+  outline: none;
+}
+
+.tabContainer :global .react-tabs__tab:focus:after {
+  content: '';
+  position: absolute;
+  height: 5px;
+  left: -4px;
+  right: -4px;
+  bottom: -5px;
+}
+
+.tabContainer :global .react-tabs__tab-panel {
+  display: none;
+}
+
+.tabContainer :global .react-tabs__tab-panel--selected {
+  display: block;
+}
+
+

@@ -1,0 +1,13 @@
+.buttonImg {
+  width: 3rem;
+  height: auto;
+  background-color: rgb(68, 7, 7);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  margin: 0 1px;
+}
+
+.buttonImg:hover {
+  background-color:rgb(106, 54, 54);
+}

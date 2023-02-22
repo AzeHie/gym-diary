@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 20rem;
+  justify-content: center;
+}
+
+.buttonContainer {
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(21, 2, 2);
+  color: white;
+  width: 22rem;
+  height: 2rem;
+  padding: 1rem 0;
+  border: 1px solid white;
+  font-style: italic;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.5s ease-out;
+  animation: diaryButtons 1s;
+
+}
+
+.button:hover {
+  font-size: 25px;
+  background-color: rgb(29, 28, 28);
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+}
+
+@keyframes diaryButtons {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}

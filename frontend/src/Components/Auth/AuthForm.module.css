@@ -1,0 +1,33 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 20rem;
+}
+
+input {
+  width: 50%;
+  margin-top: 5px;
+}
+
+.labelDiv {
+  width: 50%;
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons {
+  height: 8rem;
+}
+
+.password {
+  margin-top: 0.5rem;
+}
+
+.errorMessage {
+  font-size: small;
+  color: rgb(187, 124, 124);
+}
