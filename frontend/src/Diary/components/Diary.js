@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import Card from "../Layout/Card";
+import Card from "../../Layout/Card";
 
 import classes from "./Diary.module.css";
 

@@ -1,4 +1,5 @@
-import Homepage from "../Components/Homepage/Homepage";
+import Homepage from "../components/Homepage";
+
 
 const Home = () => {
   return <Homepage />

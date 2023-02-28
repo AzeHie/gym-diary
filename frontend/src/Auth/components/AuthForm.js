@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import Card from "../Layout/Card";
+
+import Card from "../../Layout/Card";
 import classes from "./AuthForm.module.css";
 
 const AuthForm = (props) => {

@@ -1,4 +1,4 @@
-import CurrentProgramComponent from "../Components/Diary/CurrentProgram";
+import CurrentProgramComponent from "../components/CurrentProgram";
 
 const CurrentProgram = () => {
   return <CurrentProgramComponent />

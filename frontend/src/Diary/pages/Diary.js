@@ -1,4 +1,4 @@
-import DiaryComponent from "../Components/Diary/Diary";
+import DiaryComponent from "../components/Diary";
 
 const Diary = () => {
   return (

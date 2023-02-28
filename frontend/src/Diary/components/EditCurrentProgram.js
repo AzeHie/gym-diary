@@ -1,4 +1,4 @@
-import Card from "../Layout/Card";
+import Card from "../../Layout/Card";
 
 const EditCurrentProgramComponent = () => {
   return <Card>

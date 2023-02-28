@@ -7,14 +7,14 @@ import MainImage from "./Components/Layout/MainImage";
 
 import "./App.css";
 
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
-import Diary from "./pages/Diary";
-import CurrentProgram from "./pages/CurrentProgram";
-import NewProgram from "./pages/NewProgram";
-import PreviousProgram from "./pages/PreviousPrograms";
-import UpdateWorkout from "./pages/UpdateWorkout";
+import Home from "./Homepage/pages/Home";
+import Login from "./Auth/pages/Login";
+import Signup from "./Auth/pages/Signup";
+import Diary from "./Diary/pages/Diary";
+import CurrentProgram from "./Diary/pages/CurrentProgram";
+import NewProgram from "./Diary/pages/NewProgram";
+import PreviousProgram from "./Diary/pages/PreviousPrograms";
+import UpdateWorkout from "./Diary/pages/UpdateWorkout";
 
 function App() {
   return (

@@ -2,14 +2,14 @@ import { useState } from "react";
 import { Tooltip } from "@material-ui/core";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
-import Card from "../Layout/Card";
 
 import classes from "./AddProgram.module.css";
 
 import addImg from "../../assets/icons/add.png";
 import removeImg from "../../assets/icons/x.png";
 import buttonImage from "../../assets/icons/diskette.png";
-import BackButton from "../Layout/BackButton";
+import Card from "../../Layout/Card";
+import BackButton from "../../Layout/BackButton";
 
 const AddProgramComponent = () => {
   const [isAddingWorkout, setIsAddingWorkout] = useState(false);

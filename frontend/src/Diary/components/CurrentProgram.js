@@ -2,12 +2,12 @@ import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { Tooltip } from "@material-ui/core";
 
-import DiaryContext from "../../store/diary-context";
-import BackButton from "../Layout/BackButton";
-import Card from "../Layout/Card";
 import editImage from "../../assets/icons/edit-32.png";
 
 import classes from "./CurrentProgram.module.css";
+import DiaryContext from "../../store/diary-context";
+import Card from "../../Layout/Card";
+import BackButton from "../../Layout/BackButton";
 
 const CurrentProgramComponent = () => {
   const navigate = useNavigate();

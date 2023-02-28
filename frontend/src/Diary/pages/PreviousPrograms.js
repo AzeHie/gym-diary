@@ -1,4 +1,4 @@
-import PreviousProgramsComponent from "../Components/Diary/PreviousPrograms";
+import PreviousProgramsComponent from "../components/PreviousPrograms";
 
 const PreviousProgram = () => {
   return <PreviousProgramsComponent />

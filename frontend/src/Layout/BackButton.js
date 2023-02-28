@@ -1,6 +1,6 @@
 import classes from "./BackButton.module.css";
 
-import buttonImage from "../../assets/icons/backbutton.png";
+import buttonImage from "../assets/icons/backbutton.png";
 import { Tooltip } from "@material-ui/core";
 import { useNavigate } from "react-router-dom";
 

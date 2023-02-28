@@ -1,4 +1,4 @@
-import AddProgramComponent from "../Components/Diary/AddProgram";
+import AddProgramComponent from "../components/AddProgram";
 
 const NewProgram = () => {
   return <AddProgramComponent />

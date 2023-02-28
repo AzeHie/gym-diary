@@ -1,4 +1,4 @@
-import UpdateWorkoutComponent from "../Components/Diary/UpdateWorkout";
+import UpdateWorkoutComponent from "../components/UpdateWorkout";
 
 const UpdateWorkout = () => {
   return <UpdateWorkoutComponent />
